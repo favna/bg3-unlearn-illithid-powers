@@ -27,7 +27,6 @@ Ext.Osiris.RegisterListener("LevelGameplayStarted", 2, "after", function(level, 
 
     -- Remove the 'Mind Sanctuary' Illithid passive from all unique players
     for _, player in pairs(uniquePlayers) do
-		Ext.Osiris.
 		Osi.RemovePassive(player, 'TAD_MindSanctuary')
     end
 end)

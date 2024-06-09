@@ -27,7 +27,6 @@ Ext.Osiris.RegisterListener("LevelGameplayStarted", 2, "after", function(level, 
 
     -- Remove all Illithid passives and spells from all unique players, this is the inverse of the regular mod logic
     for _, player in pairs(uniquePlayers) do
-		Ext.Osiris.
 		Osi.RemovePassive(player, 'CRE_GithInfirmary_Awakened')
 		Osi.RemovePassive(player, 'TAD_Charm')
 		Osi.RemovePassive(player, 'TAD_CullTheWeak')
