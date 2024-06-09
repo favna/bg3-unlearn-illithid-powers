@@ -1,5 +1,7 @@
 # Unlearn Illithid Powers
 
+<img src="./assets/UnlearnIllithidPowersBanner.png" height="400px" />
+
 Reverts changes from mod [Learn Illithid Powers](original-mod) by [BitterPast](https://next.nexusmods.com/profile/BitterPast/) restoring regular action resourcing.
 
 The above mod has an issue where each action consumes both the regular action and a bonus action (or 2 actions if available). Saving your game with the mod active causes the mod changes to be permanent, even if the mod is disabled afterwards.
